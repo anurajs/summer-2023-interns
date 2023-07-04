@@ -1,9 +1,8 @@
-// import secretNumber from './library/index.js';
-// import { v4 } from 'uuid';
-const uuid = require('uuid');
+import secretNumber from './library/index.js';
+import { v4 } from 'uuid';
 
 console.log('hello world');
 
-// console.log(secretNumber);
+console.log(secretNumber);
 
-console.log(uuid.v4());
+console.log(v4());
